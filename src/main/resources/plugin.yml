@@ -1,0 +1,16 @@
+name: SpecialArmor
+author: Mtihc
+description: Put items in your armor for special abilities.
+main: com.mtihc.minecraft.specialarmor.SpecialArmorPlugin
+depend: []
+softdepend: []
+version: 1.0
+commands:
+    armor:
+        aliases: []
+        description: Type /armor ? for more info
+        usage: /armor ?
+permissions:
+    specialarmor.list:
+        description: Allows you to list all armor types
+        default: op
